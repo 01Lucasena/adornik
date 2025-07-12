@@ -6,7 +6,7 @@ import Produtos from './pages/produtos/Produtos';
 import Sobre from './pages/sobre/Sobre';
 import Contato from './pages/contato/Contato';
 
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-dom';
 
 function App() {
   return (
