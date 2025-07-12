@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/adornik/static/css/main.2c57845d.css",
-    "main.js": "/adornik/static/js/main.dd54a2d4.js",
+    "main.js": "/adornik/static/js/main.d296f017.js",
     "static/media/galeria-2.jpeg": "/adornik/static/media/galeria-2.95107173b06e0b56b1fd.jpeg",
     "static/media/galeria-3.jpeg": "/adornik/static/media/galeria-3.8aff5e7fd5ecaed6906b.jpeg",
     "static/media/galeria-1.jpeg": "/adornik/static/media/galeria-1.5d54a4cdd04c50f366d4.jpeg",
     "static/media/logo.jpeg": "/adornik/static/media/logo.a755e9f2b507b9164985.jpeg",
     "index.html": "/adornik/index.html",
     "main.2c57845d.css.map": "/adornik/static/css/main.2c57845d.css.map",
-    "main.dd54a2d4.js.map": "/adornik/static/js/main.dd54a2d4.js.map"
+    "main.d296f017.js.map": "/adornik/static/js/main.d296f017.js.map"
   },
   "entrypoints": [
     "static/css/main.2c57845d.css",
-    "static/js/main.dd54a2d4.js"
+    "static/js/main.d296f017.js"
   ]
 }
