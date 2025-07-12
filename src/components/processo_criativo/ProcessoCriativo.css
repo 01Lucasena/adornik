@@ -1,0 +1,61 @@
+.text-gold {
+  color: #D8BA83;
+}
+
+.text-gold p {
+  text-align: center;
+  justify-content: center;
+}
+
+.processo {
+  background-color: #111;
+  padding: 4rem 1rem;
+  color: white;
+  text-align: center;
+}
+
+.etapas {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 2rem;
+  align-items: start;
+  justify-items: center;
+}
+
+.etapas > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1b1b1b;
+  padding: 2rem 1rem;
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 260px;
+  height: 100%;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.etapas svg {
+  margin-bottom: 0.5rem;
+}
+
+.etapas h3 {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin: 0.5rem 0;
+  color: #D8BA83;
+}
+
+.etapas p {
+  font-size: 0.95rem;
+  color: #eee;
+  margin-bottom: 0.3rem;
+  line-height: 1.4;
+}
+
+.etapas span {
+  font-size: 0.85rem;
+  color: #D8BA83;
+  font-style: italic;
+}

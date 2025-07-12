@@ -1,0 +1,16 @@
+.destaque-container {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #1C1C1C;
+  padding: 4rem 1.5rem;
+  
+ 
+}
+
+.destaque-container h1, h2, h3 {
+  color: #D8BA83;
+  font-family: 'Julius Sans One', sans-serif;
+  text-transform: uppercase;
+  margin: auto;
+  
+}
