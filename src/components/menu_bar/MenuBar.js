@@ -25,7 +25,7 @@ function MenuBar() {
 
         <ul className={`menu-bar-list ${menuOpen ? "open" : ""}`}>
           <li className="menu-bar-item">
-            <NavLink to="/" onClick={() => setMenuOpen(false)} className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
+            <NavLink to="/home" onClick={() => setMenuOpen(false)} className={({ isActive }) => isActive ? "active" : ""}>Home</NavLink>
           </li>
           <li className="menu-bar-item">
             <NavLink to="/produtos" onClick={() => setMenuOpen(false)} className={({ isActive }) => isActive ? "active" : ""}>Produtos</NavLink>
