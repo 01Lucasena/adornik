@@ -2,7 +2,7 @@
   "name": "adornik",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://01Lucasena.github.io/adornik",
+  "homepage": "https://www.adornik.com.br",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
