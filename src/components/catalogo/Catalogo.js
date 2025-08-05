@@ -47,7 +47,7 @@ export default function Catalogo() {
 
   return (
     <div className="catalogo-container">
-      <h1>Catálogo de Produtos</h1>
+      <h1>Conheça Nossos Produtos</h1>
 
       {categorias.map(categoria => (
         <section className="catalogo-section" key={categoria}>

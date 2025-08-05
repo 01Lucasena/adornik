@@ -1,5 +1,5 @@
 import './Contato.css';
-import { FaWhatsapp, FaInstagram, FaFacebook } from 'react-icons/fa';
+import { FaWhatsapp, FaInstagram,} from 'react-icons/fa';
 
 function Contato() {
   return (
@@ -10,7 +10,7 @@ function Contato() {
       {/* Links de contato */}
       <div className="contato-links">
         <a
-          href="https://wa.me/5599999999999?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento."
+          href="https://wa.me/5573999778810?text=Olá!%20Gostaria%20de%20fazer%20um%20orçamento."
           target="_blank"
           rel="noopener noreferrer"
           className="contato-link whatsapp"
@@ -19,7 +19,7 @@ function Contato() {
         </a>
 
         <a
-          href="https://instagram.com/suaempresa"
+          href="https://instagram.com/adornik_arteeaco"
           target="_blank"
           rel="noopener noreferrer"
           className="contato-link instagram"
@@ -27,14 +27,7 @@ function Contato() {
           <FaInstagram size={24} /> Instagram
         </a>
 
-        <a
-          href="https://facebook.com/suaempresa"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="contato-link facebook"
-        >
-          <FaFacebook size={24} /> Facebook
-        </a>
+      
       </div>
 
       {/* Endereço e horário */}
