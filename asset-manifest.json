@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.e0c3e46b.css",
-    "main.js": "/static/js/main.f432b951.js",
-    "static/media/galeria-2.jpeg": "/static/media/galeria-2.95107173b06e0b56b1fd.jpeg",
-    "static/media/galeria-3.jpeg": "/static/media/galeria-3.8aff5e7fd5ecaed6906b.jpeg",
-    "static/media/galeria-1.jpeg": "/static/media/galeria-1.5d54a4cdd04c50f366d4.jpeg",
+    "main.css": "/static/css/main.a452a759.css",
+    "main.js": "/static/js/main.d742affe.js",
+    "static/media/colar9.jpg": "/static/media/colar9.c21766531db0865a0d04.jpg",
+    "static/media/colar8.jpg": "/static/media/colar8.139cdf58c5b7964b9ddf.jpg",
+    "static/media/colar2.jpg": "/static/media/colar2.7cae4479f1010ac8c4d2.jpg",
+    "static/media/colar6.jpg": "/static/media/colar6.1a59b34b80bfd40f93bd.jpg",
     "static/media/logo.jpeg": "/static/media/logo.a755e9f2b507b9164985.jpeg",
     "index.html": "/index.html",
-    "main.e0c3e46b.css.map": "/static/css/main.e0c3e46b.css.map",
-    "main.f432b951.js.map": "/static/js/main.f432b951.js.map"
+    "main.a452a759.css.map": "/static/css/main.a452a759.css.map",
+    "main.d742affe.js.map": "/static/js/main.d742affe.js.map"
   },
   "entrypoints": [
-    "static/css/main.e0c3e46b.css",
-    "static/js/main.f432b951.js"
+    "static/css/main.a452a759.css",
+    "static/js/main.d742affe.js"
   ]
 }
