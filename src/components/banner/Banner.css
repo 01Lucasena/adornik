@@ -1,0 +1,33 @@
+.banner-container {
+  width: 100%;
+  min-height: 30vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 40px;
+  box-sizing: border-box; 
+  color: black;
+  overflow: hidden; 
+}
+
+.banner-content {
+  max-width: 1000px;
+  width: 100%;
+}
+
+.banner-texto-lista {
+  display: flex;
+  gap: 40px;
+  align-items: flex-start;
+  flex-wrap: wrap; 
+}
+
+.banner-texto-lista p,
+.banner-texto-lista ul {
+  flex: 1 1 300px; 
+}
+
+

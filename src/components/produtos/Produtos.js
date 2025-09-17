@@ -1,30 +1,33 @@
 import React from "react";
+import { NavLink } from "react-router-dom"; 
 import "./Produtos.css";
-import galeria1 from '../../assets/images/galeria-1.jpeg';
-import galeria2 from '../../assets/images/galeria-2.jpeg';
-import galeria3 from '../../assets/images/galeria-3.jpeg';
+import galeria1 from '../../assets/images/colar8.jpg';
+import galeria2 from '../../assets/images/colar2.jpg';
+import galeria3 from '../../assets/images/colar9.jpg';
 
 function Produtos() {
     const produtos = [
-        { imagem: galeria1, titulo: "Produto 1", descricao: "Descrição do Produto 1" },
-        { imagem: galeria2, titulo: "Produto 2", descricao: "Descrição do Produto 2" },
-        { imagem: galeria3, titulo: "Produto 3", descricao: "Descrição do Produto 3" },
+        { imagem: galeria1, titulo: "Transforme lembranças especiais em uma peça única!" },
+        { imagem: galeria2, titulo: "Um acessório exclusivo que guarda memórias eternas" },
+        { imagem: galeria3, titulo: "Escolha sua foto favorita e leve para sempre consigo em um colar cheio de significado!" },
     ];
 
     return (
         <div className="produtos-container">
-            <h2>Explore nossa coleção </h2>
-            <br />
+            <h1>Explore nossa coleção</h1>
+            <p>Colares personalizados com gravação a laser.</p>
             <br />
             <div className="produtos-grid">
                 {produtos.map((produto, index) => (
                     <div key={index} className="produto-item">
                         <img src={produto.imagem} alt={produto.titulo} />
-                        <h2>{produto.titulo}</h2>
-                        <p>{produto.descricao}</p>
+                        <h2>{produto.titulo}</h2> 
                     </div>
                 ))}
             </div>
+            <NavLink to="/produtos" className="produtos-link">
+                Veja Mais
+            </NavLink>
         </div>
     );
 }

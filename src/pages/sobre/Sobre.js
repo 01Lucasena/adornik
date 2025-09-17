@@ -23,7 +23,7 @@ function Sobre() {
           "Atendimento incrível e produtos que superaram minhas expectativas!" – <strong>Marina R.</strong>
         </blockquote>
         <blockquote>
-          "Já comprei várias vezes e sempre fui muito bem atendida." – <strong>Lucas F.</strong>
+          "Já comprei várias vezes e sempre fui muito bem atendido." – <strong>Lucas F.</strong>
         </blockquote>
       </div>
 

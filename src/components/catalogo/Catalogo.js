@@ -1,5 +1,6 @@
 import { useState } from 'react';
 import './Catalogo.css';
+import ColarImg from '../../assets/images/colar6.jpg'
 
 export default function Catalogo() {
   const [produtoSelecionado, setProdutoSelecionado] = useState(null);
@@ -22,9 +23,9 @@ export default function Catalogo() {
     {
       id: 3,
       categoria: 'Colares',
-      nome: 'Colar Infinito',
-      descricao: 'Com pingente símbolo do infinito, em prata 925.',
-      imagem: '/imagens/colares1.jpg',
+      nome: 'Colar Personalizado',
+      descricao: 'Com pingente de coração, em aço inox.',
+      imagem: ColarImg,
     },
     {
       id: 4,

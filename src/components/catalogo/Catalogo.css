@@ -29,6 +29,7 @@
 }
 
 .produto-card {
+  width: 300px;
   background: #fff;
   border: 1px solid #eee;
   border-radius: 10px;
@@ -37,12 +38,8 @@
   transition: box-shadow 0.2s ease;
 }
 
-.produto-card:hover {
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
-}
-
 .produto-card img {
-  max-width: 100%;
+  width: 250px;
   height: auto;
   border-radius: 6px;
   margin-bottom: 15px;
@@ -74,7 +71,7 @@
   background-color: #c3a76a;
 }
 
-/* Modal */
+
 .modal-overlay {
   position: fixed;
   inset: 0;
